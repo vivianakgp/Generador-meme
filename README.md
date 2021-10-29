@@ -1,6 +1,6 @@
 # MEME GENERATOR
 
-Meme Generator that allows you to choose a viral meme image and write two lines of text and finally allows you to download it.
+Meme Generator✨ that allows you to choose a viral meme image and write two lines of text and finally allows you to download it.
 
 
 
