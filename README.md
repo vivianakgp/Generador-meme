@@ -9,13 +9,13 @@ Meme Generator✨ that allows you to choose a viral meme image and write two lin
 To install and run this project just type and execute.
 
 ```bash
-npm install
-npm start
+yarn install
+yarn start
 
 ```
 ## Built with 🛠️
 
-- React components
+- React
 - React Hooks
 - [html2canvas](https://html2canvas.hertzen.com/?ref=hackernoon.com) -To export image as png 
 

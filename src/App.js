@@ -16,6 +16,7 @@ function App() {
     setLine2(event.target.value);
   }
   const onChangeImg = function (event) {
+    alert('fff');
     setImg(event.target.value);
   }
   const onClickExport = function () {
@@ -41,7 +42,7 @@ function App() {
     <div className='span_container' id='meme'>
       <span>{line1}</span><br/>
       <span>{line2}</span>
-      <img src={'/img-memes/'+img+'.png'} alt='meme' />
+      <img src={'/img-memes/'+ img +'.png'} alt='meme' />
     </div>
     </div>
   );
