@@ -16,7 +16,6 @@ function App() {
     setLine2(event.target.value);
   }
   const onChangeImg = function (event) {
-    alert('fff');
     setImg(event.target.value);
   }
   const onClickExport = function () {
@@ -31,7 +30,7 @@ function App() {
   }
   return (
     <div className='App'>
-    <select onChange={onChangeImg} >
+    <select onChange={onChangeImg}>
       <option value='imagenes-para-crear-memes78'>Niña fuga</option>
       <option value='imagenes-para-crear-memes67'>Bebe borracho</option>
       <option value='imagenes-para-crear-memes69'>Oso Ted</option>
@@ -42,7 +41,7 @@ function App() {
     <div className='span_container' id='meme'>
       <span>{line1}</span><br/>
       <span>{line2}</span>
-      <img src={'/img-memes/'+ img +'.png'} alt='meme' />
+      <img src={'/img-memes/'+ img +'.png'} alt='Meme-img' />
     </div>
     </div>
   );
